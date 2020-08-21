@@ -40,3 +40,17 @@
 3) Difficult to learn complex functions
 
 ![](https://video.udacity-data.com/topher/2020/May/5ebed4d4_aws-mle-ml-stack-v3/aws-mle-ml-stack-v3.jpg)
+
+#### Bias
+Error that results from inaccurate assumptions in model training (that are made to simplify the training process). Bias measures how inaccurate the model prediction is in comparison with the true output. It is due to erroneous assumptions made in the machine learning process to simplify the model and make the target function easier to learn. High model complexity tends to have a low bias.
+
+#### Variance 
+Variance measures how much the target function will change if different training data is used. Variance can be caused by modeling the random noise in the training data. High model complexity tends to have a high variance.
+
+`As a general trend, parametric and linear algorithms often have high bias and low variance, whereas non-parametric and non-linear algorithms often have low bias and high variance`
+
+#### Overfitting
+Overfitting refers to the situation in which models fit the training data very well, but fail to generalize to new data.
+
+#### Underfitting
+Underfitting refers to the situation in which models neither fit the training data nor generalize to new data.
